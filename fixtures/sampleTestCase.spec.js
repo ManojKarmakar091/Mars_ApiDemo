@@ -2,6 +2,8 @@
 var api = require('./api');
 var apiPayLoadJson = require('./apiPayLoad.js')
 var apiData = require('./data')
+var putPayloadData = require('./putPayload')
+var postPayloadData= require('./postPayload')
 
 var geturl = require("./apiUrls.js")
 
@@ -30,12 +32,8 @@ describe('API Testing', () => {
 
     it('API:POST CALL', async () => {
         const url = geturl.postapiUrl
-        const payload =
-        {
-            "name": "manoj",
-            "job": "qa"
-        }
-
+        const payload = postPayloadData.postdataDrive
+        
         const res = await api.postRequest(url, payload);
         console.log('data = ', await res.data); // Print all data
         console.log('status:  ', await res.status); // Print ststus code
@@ -72,11 +70,7 @@ describe('API Testing', () => {
 
     it('API:PUT CALL', async () => {
         const url = geturl.postapiUrl
-        const payload = {
-            "name": "morpheus",
-            "job": "zion resident"
-        }
-
+        const payload = putPayloadData.putdataDrive
         const res = await api.putRequest(url, payload);
         console.log('PUT data = ', await res.data); // Print all data
         console.log('PUT status:  ', await res.status); // Print ststus code

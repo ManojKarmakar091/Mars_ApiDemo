@@ -10,3 +10,5 @@ module.exports =
     "deleteUrl": "https://reqres.in/api/users/2"
 
 }
+
+
