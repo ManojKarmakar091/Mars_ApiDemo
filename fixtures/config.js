@@ -5,7 +5,7 @@ exports.config = {
     onPrepare: function() {
       
       jasmine.getEnv().addReporter(new AllureReporter({
-        resultsDir: 'allure-results'
+        resultsDir: 'allure-reports'
       }));
     }
   

@@ -6,14 +6,16 @@ var putPayloadData = require('./putPayload')
 var postPayloadData= require('./postPayload')
 
 var geturl = require("./apiUrls.js")
+var getToken= require("./token")
 
 
 
 describe('API Testing', () => {
 
+
     it('API:GET CALL', async () => {
 
-
+        getToken.setUpAxiosToken
         const res = await api.getRequest(geturl.getapiUrl);
         console.log('data = ', await res.data); // Print all data
         console.log('status:  ', await res.status); // Print ststus code
