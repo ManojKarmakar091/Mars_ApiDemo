@@ -1,13 +1,13 @@
 
-var api = require('./api');
-var apiPayLoadJson = require('./apiPayLoad.js')
-var apiData = require('./data')
-var putPayloadData = require('./putPayload')
-var postPayloadData= require('./postPayload')
+var api = require('../Source/api');
+var apiPayLoadJson = require('../TestData/apiPayLoad.js')
+var apiData = require('../TestData/data')
+var putPayloadData = require('../TestData/putPayload')
+var postPayloadData= require('../TestData/postPayload')
 
-var geturl = require("./apiUrls.js")
-var getToken= require("./token")
-var logger = require("./Logger/log4jsconf")
+var geturl = require("../TestData/apiUrls.js")
+var getToken= require("../fixtures/token")
+var logger = require("../Logger/log4jsconf")
 
 
 

@@ -8,7 +8,7 @@
      "file": {
          "category": "test-file-appender",
          "type": "file",
-         "filename": "Logger/reports/log_info.log",
+         "filename": "../Logger/Logs/log_info.log",
          "fileAppend": "false",
          "maxLogSize": 10240,
          "backups":3,

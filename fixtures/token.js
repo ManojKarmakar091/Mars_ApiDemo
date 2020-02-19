@@ -1,12 +1,13 @@
-/*  function setUpAxiosToken (){
+/*   function setUpAxiosToken (){
     var axios = require('axios');
+    var baseUrlToken = require("../fixtures/token")
     var data = {
     "grant_type": "client_credentials",
     "scope": "public",
-    "client_id": "XXXXXXXXX",
-    "client_secret": "XXXXXXXX"
+    "client_id": baseUrlToken.client_id,
+    "client_secret": baseUrlToken.client_secret
     };
-    var url = "https://api.lyft.com/oauth/token";
+    var baseurl = baseUrlToken.baseurl
       return axios.post(url, data)
         .then(function(response){
             console.log(response.data)
@@ -21,4 +22,4 @@ module.exports = new setUpAxiosToken();
 
 
 
- */
+  */
