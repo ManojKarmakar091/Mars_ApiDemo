@@ -1,11 +1,11 @@
-/*   function setUpAxiosToken (){
+  function setUpAxiosToken (){
     var axios = require('axios');
-    var baseUrlToken = require("../fixtures/token")
+    var baseUrlToken = require("../resources/resource_prop")
     var data = {
     "grant_type": "client_credentials",
     "scope": "public",
-    "client_id": baseUrlToken.client_id,
-    "client_secret": baseUrlToken.client_secret
+    "client_id": baseUrlToken.clientId,
+    "client_secret": baseUrlToken.clientSecret
     };
     var baseurl = baseUrlToken.baseurl
       return axios.post(url, data)
@@ -22,4 +22,3 @@ module.exports = new setUpAxiosToken();
 
 
 
-  */
