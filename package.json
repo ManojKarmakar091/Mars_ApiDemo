@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "0.19.2",
     "protractor": "^5.4.3",
-    "axios": "0.19.2"
+    "xlsx": "^0.15.5"
   },
   "devDependencies": {
     "allure-commandline": "^2.13.0",

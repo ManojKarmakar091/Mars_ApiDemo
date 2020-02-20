@@ -8,6 +8,8 @@ var postPayloadData= require('../TestData/postPayload')
 var geturl = require("../TestData/apiUrls.js")
 var getToken= require("../fixtures/token")
 var logger = require("../Logger/log4jsconf")
+//var xl = require("../TestData/XLReader")
+
 
 
 
@@ -16,7 +18,8 @@ describe('API Testing', () => {
        // getToken.setUpAxiosToken()
       });
 
-
+    //   var  TEST_DATA= xl.read_from_excel("Sheet1","../TestData/testData.xlsx")
+    //   TEST_DATA.forEach(async (data1)=>{
     it('API:GET CALL', async () => {
 
         logger.logger().debug("This is looger for GET")
@@ -34,7 +37,9 @@ describe('API Testing', () => {
         await expect(res.status).toEqual(apiData.statusCode1)
 
 
-    })
+    // })
+})
+
 
     it('API:POST CALL', async () => {
         logger.logger().debug("This is logger for POST")
@@ -62,19 +67,25 @@ describe('API Testing', () => {
         }
     })
 
-    it('API:GET CALL 2', async () => {
 
-        const res = await api.getRequest(geturl.getapiUrl2);
-        console.log('data = ', await res.data); // Print all data
-        console.log('status:  ', await res.status); // Print status code
+   
 
-        const name = await api.calculateAPIResponse(res);
-        console.log('name output =', name)
-        await expect(name).toEqual(apiData.userNames) // Verifications
+        it('API:GET CALL 2', async () => {
 
+            const res = await api.getRequest(geturl.getapiUrl2);
+            console.log('data = ', await res.data); // Print all data
+            console.log('status:  ', await res.status); // Print status code
+    
+            const name = await api.calculateAPIResponse(res);
+            console.log('name output =', name)
+            await expect(name).toEqual(apiData.userNames) // Verifications
+    
+    
+      
+    
 
-    })
-
+     })
+   
     it('API:PUT CALL', async () => {
         const url = geturl.postapiUrl
         const payload = putPayloadData.putdataDrive

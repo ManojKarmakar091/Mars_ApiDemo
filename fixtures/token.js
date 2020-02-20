@@ -1,4 +1,4 @@
-  function setUpAxiosToken (){
+/*   function setUpAxiosToken (){
     var axios = require('axios');
     var baseUrlToken = require("../resources/resource_prop")
     var data = {
@@ -22,3 +22,4 @@ module.exports = new setUpAxiosToken();
 
 
 
+ */

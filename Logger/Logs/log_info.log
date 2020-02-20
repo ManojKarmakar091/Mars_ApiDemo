@@ -1,6 +1,6 @@
-[2020-02-19T15:22:55.368] [DEBUG] default - This is looger for GET
-[2020-02-19T15:22:55.953] [DEBUG] default - This is logger for POST
-[2020-02-19T15:22:57.525] [DEBUG] default - This is logger for DELETE
-[2020-02-19T15:22:57.529] [INFO] default - This is logger info for DELETE
-[2020-02-19T15:22:57.532] [ERROR] default - This is logger info for DELETE
-[2020-02-19T15:22:57.533] [ERROR] default - This is logger info for DELETE
+[2020-02-20T11:55:35.381] [DEBUG] default - This is looger for GET
+[2020-02-20T11:55:35.756] [DEBUG] default - This is logger for POST
+[2020-02-20T11:55:37.284] [DEBUG] default - This is logger for DELETE
+[2020-02-20T11:55:37.285] [INFO] default - This is logger info for DELETE
+[2020-02-20T11:55:37.288] [ERROR] default - This is logger info for DELETE
+[2020-02-20T11:55:37.288] [ERROR] default - This is logger info for DELETE
