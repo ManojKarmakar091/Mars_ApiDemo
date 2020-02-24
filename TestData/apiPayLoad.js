@@ -41,4 +41,5 @@
         "color": "#53B0AE",
         "pantone_value": "15-5217"
     }
+    
 ]

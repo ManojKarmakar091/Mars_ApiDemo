@@ -8,22 +8,29 @@ var postPayloadData= require('../TestData/postPayload')
 var geturl = require("../TestData/apiUrls.js")
 var getToken= require("../fixtures/token")
 var logger = require("../Logger/log4jsconf")
-//var xl = require("../TestData/XLReader")
+var confini = require("../Utils/Common/configFileUtil")
+
+
+
 
 
 
 
 describe('API Testing', () => {
-    
+
+
+
+var param1= "SectionOne";
     beforeAll(() => {
        // getToken.setUpAxiosToken()
       });
 
-    //   var  TEST_DATA= xl.read_from_excel("Sheet1","../TestData/testData.xlsx")
-    //   TEST_DATA.forEach(async (data1)=>{
+    
     it('API:GET CALL', async () => {
-
         logger.logger().debug("This is looger for GET")
+
+console.log(confini.configer().Tutor);
+        
         const res = await api.getRequest(geturl.getapiUrl);
         console.log('data = ', await res.data); // Print all data
         console.log('status:  ', await res.status); // Print ststus code

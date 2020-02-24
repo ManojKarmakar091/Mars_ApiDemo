@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582534604675' stop='1582534606868'>
+    <name>API Testing</name>
+    <title>API Testing</title>
+    <test-cases>
+        <test-case start='1582534604676' status='passed' stop='1582534604896'>
+            <name>API:GET CALL</name>
+            <title>API:GET CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582534604896' status='passed' stop='1582534605532'>
+            <name>API:POST CALL</name>
+            <title>API:POST CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582534605532' status='passed' stop='1582534605537'>
+            <name>API:PAYLOAD VALIDATION</name>
+            <title>API:PAYLOAD VALIDATION</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582534605537' status='passed' stop='1582534605712'>
+            <name>API:GET CALL 2</name>
+            <title>API:GET CALL 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582534605712' status='passed' stop='1582534606256'>
+            <name>API:PUT CALL</name>
+            <title>API:PUT CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582534606256' status='passed' stop='1582534606867'>
+            <name>API:DELETE CALL</name>
+            <title>API:DELETE CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
