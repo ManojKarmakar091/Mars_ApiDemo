@@ -2,7 +2,7 @@ module.exports =
 {
 
 
-    firstNames: "Michael",
+    firstNames: "Michael2",
     lastName: "Lawson",
     email: "michael.lawson@reqres.in",
     userNames: ['cerulean', 'fuchsia rose', 'true red', 'aqua sky', 'tigerlily', 'blue turquoise'],

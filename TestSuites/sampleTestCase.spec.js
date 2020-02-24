@@ -33,7 +33,7 @@ console.log(confini.configer().Tutor);
         
         const res = await api.getRequest(geturl.getapiUrl);
         console.log('data = ', await res.data); // Print all data
-        console.log('status:  ', await res.status); // Print ststus code
+        console.log('status:  ', await res.status); // Print status code
         console.log('DATA[0]:  ', await res.data.data[0]); // Print first set of data
         console.log('DATA[0] id:  ', await res.data.data[0].id); // Print ID
         console.log('DATA[0] email:  ', await res.data.data[0].email); //Print email

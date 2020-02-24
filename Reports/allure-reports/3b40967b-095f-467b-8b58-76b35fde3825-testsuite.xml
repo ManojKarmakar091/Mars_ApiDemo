@@ -1,17 +1,23 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582534794393' stop='1582534796386'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582544610718' stop='1582544612973'>
     <name>API Testing</name>
     <title>API Testing</title>
     <test-cases>
-        <test-case start='1582534794394' status='passed' stop='1582534794671'>
+        <test-case start='1582544610719' status='failed' stop='1582544611075'>
             <name>API:GET CALL</name>
             <title>API:GET CALL</title>
             <labels/>
             <parameters/>
             <steps/>
             <attachments/>
+            <failure>
+                <message>Expected 'Michael' to equal 'Michael2'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (D:\Mars_demo\TestSuites\sampleTestCase.spec.js:44:33)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
         </test-case>
-        <test-case start='1582534794671' status='passed' stop='1582534795200'>
+        <test-case start='1582544611076' status='passed' stop='1582544611673'>
             <name>API:POST CALL</name>
             <title>API:POST CALL</title>
             <labels/>
@@ -19,7 +25,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1582534795200' status='passed' stop='1582534795201'>
+        <test-case start='1582544611673' status='passed' stop='1582544611674'>
             <name>API:PAYLOAD VALIDATION</name>
             <title>API:PAYLOAD VALIDATION</title>
             <labels/>
@@ -27,7 +33,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1582534795201' status='passed' stop='1582534795361'>
+        <test-case start='1582544611674' status='passed' stop='1582544611854'>
             <name>API:GET CALL 2</name>
             <title>API:GET CALL 2</title>
             <labels/>
@@ -35,7 +41,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1582534795361' status='passed' stop='1582534795874'>
+        <test-case start='1582544611854' status='passed' stop='1582544612350'>
             <name>API:PUT CALL</name>
             <title>API:PUT CALL</title>
             <labels/>
@@ -43,7 +49,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1582534795874' status='passed' stop='1582534796386'>
+        <test-case start='1582544612350' status='passed' stop='1582544612973'>
             <name>API:DELETE CALL</name>
             <title>API:DELETE CALL</title>
             <labels/>
