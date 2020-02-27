@@ -58,24 +58,24 @@ var apiHelper = function () {
 
 
 
-    this.calculateAPIResponse = async function (res) {
+    // this.calculateAPIResponse = async function (res) {
 
-        const apiResTotalName = [];
-        if (res.status == 200) {
-            const totalResponseLength = await res.data.data.length;
-            console.log('totalResponseLength', totalResponseLength)
-            for (let i = 0; i < totalResponseLength; i++) {
+    //     const apiResTotalName = [];
+    //     if (res.status == 200) {
+    //         const totalResponseLength = await res.data.data.length;
+    //         console.log('totalResponseLength', totalResponseLength)
+    //         for (let i = 0; i < totalResponseLength; i++) {
 
-                const outputName = res.data.data[i].name
-                apiResTotalName.push(outputName);
-            }
-            return apiResTotalName;
+    //             const outputName = res.data.data[i].name
+    //             apiResTotalName.push(outputName);
+    //         }
+    //         return apiResTotalName;
 
-        }
+    //     }
 
-    }
+    // }
 
-    this.putRequest = async function (getAPIUrl, payload) {
+    this.putRequest = async(getAPIUrl, datapayload)=> {
 
         try {
 
@@ -88,7 +88,7 @@ var apiHelper = function () {
 
                 method: 'put',
                 url: getAPIUrl,
-                body: payload,
+                data: datapayload,
                 headers: headers,
 
             });
@@ -103,6 +103,7 @@ var apiHelper = function () {
 
 
     }
+
 
 
     this.deleteRequest = async function (getAPIUrl, payload) {

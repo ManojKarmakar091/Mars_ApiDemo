@@ -1,14 +1,13 @@
 
-module.exports =
+module.exports=
 
 {
 
-    "getapiUrl": "https://reqres.in/api/users?page=2",
-    "postapiUrl": "https://reqres.in/api/users",
-    "getapiUrl2": "https://reqres.in/api/unknown",
-    "putUrl": "https://reqres.in/api/users/2",
-    "deleteUrl": "https://reqres.in/api/users/2"
-
+    "getapiUrl": "http://40.78.66.210/api/client/address/VCA-OU-71",
+     "postapiUrl": "http://40.78.66.210/api/Client",
+     "putapiUrl": "http://40.78.66.210/api/client/address/VCA-OU-71",
+     "deleteUrl": "https://reqres.in/api/users/2"
+     // "getapiUrl2": "https://reqres.in/api/unknown",
 }
 
 

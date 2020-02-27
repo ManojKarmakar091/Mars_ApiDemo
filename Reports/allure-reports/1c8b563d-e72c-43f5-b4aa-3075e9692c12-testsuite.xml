@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582788387989' stop='1582788392267'>
+    <name>API Testing</name>
+    <title>API Testing</title>
+    <test-cases>
+        <test-case start='1582788387991' status='failed' stop='1582788389444'>
+            <name>API:GET CALL</name>
+            <title>API:GET CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0965414c-b066-4fdf-8874-2ef916cccb9b-attachment.png' type='image/png' size='3249'/>
+            </attachments>
+            <failure>
+                <message>Expected 200 to equal 201.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (D:\Mars_VoyagerAPI\TestSuites\sampleTestCase.spec.js:40:37)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582788389444' status='failed' stop='1582788391257'>
+            <name>API:POST CALL</name>
+            <title>API:POST CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cf03094e-b1fb-41ce-a45f-b0f17268935f-attachment.png' type='image/png' size='3249'/>
+            </attachments>
+            <failure>
+                <message>Expected 'VCA-OU-145' to equal 'VCA-OU-71'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (D:\Mars_VoyagerAPI\TestSuites\sampleTestCase.spec.js:64:37)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582788391257' status='passed' stop='1582788392266'>
+            <name>API:PUT CALL</name>
+            <title>API:PUT CALL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8e72f3c3-7292-49d7-bcd4-119a0de8bea2-attachment.png' type='image/png' size='3249'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
