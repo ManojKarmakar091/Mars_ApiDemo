@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "config.ini": "0.0.60",
     "protractor": "^5.4.3",
     "xlsx": "^0.15.5"
